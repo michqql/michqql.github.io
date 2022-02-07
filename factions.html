@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Factions</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+				<header id="header" class="alt">
+					<a href="index.html" class="logo"><strong>MICHQQL</strong> <span>Portfolio</span></a>
+				</header>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<!-- <img src="images/pic07.jpg" alt="" /> -->
+								<img src="images/factions/faction_info.png" alt="" />
+							</span>
+							<header class="major">
+								<h1>Factions core plugin(s)</h1>
+							</header>
+							<div class="content">
+								<p>
+									My original custom factions core was called Guilds and was a closed source commission<br>
+									Eventually, after getting into Rust (not the language, the game), I became heavily inspired <br>
+									to recreate this in Minecraft
+								</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>About the project</h2>
+									</header>
+									<p>
+										The original Guilds plugin was different from other factions plugins and required
+										special upgrades to protect your claim from raiders. <br>
+										In total, this project has over 13,000 lines of code so far. <br>
+										The project took several months, and is still in the works, but taught me a lot of
+										valuable lessons over that time. <br>
+										The project taught me a lot about working with Chunks to store claims,
+										how to efficiently traverse these claims and so forth. <br> <br>
+
+										My second revision, this time a personal project, proved to myself the amount I had
+										learnt in the two years since initially starting Guilds. <br>
+										So far, the project has player and admin factions, claims, members, roles and all the
+										basic commands to get setup. <br>
+										This project is in active development by me and I hope to have a release within a month.
+										My next goals to add are base building as well as upkeep, in a similar style to Rust.
+									</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<!-- Streamable embed -->
+									<div class="image">
+										<iframe src="https://streamable.com/e/ohsgtj?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;">
+										</iframe>
+									</div>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>The claim map</h3>
+											</header>
+											<p>
+												The client I was working with did not want to have the map displayed via chat as many other factions servers do.<br>
+												Instead, the map was to be shown through a GUI, as demonstrated on the left. <br> <br>
+												To achieve this task, a lot of complicated maths went in behind the scenes to convert the set of chunks into a
+												matrix, which I could then apply offsets to, allowing the player to move the map around to view a larger area than
+												the otherwise 5x5 grid.
+											</p>
+										</div>
+									</div>
+								</section>
+
+								<section>
+									<a class="image">
+										<img src="images/factions/faction_info.png" alt="" data-position="center center" />
+									</a>
+									<a class="image">
+										<img src="images/factions/faction_gui.png" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Version 2</h3>
+											</header>
+											<p>
+												Currently, version 2 is a work in progress. However, so far the basic factions core is implemented, including:
+												<ul>
+													<li>Factions structure</li>
+													<li>Factions members and roles</li>
+													<li>Claims</li>
+													<li>All basic commands</li>
+													<li>Admin commands</li>
+												</ul>
+												With these implemented, I am able to focus my efforts on implemented the Rust aspects to my plugin. <br>
+												Ideas from Rust I want to add are base building mechanics, raiding, upkeep, structures/world events.
+											</p>
+										</div>
+									</div>
+								</section>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
